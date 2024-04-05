@@ -1,0 +1,18 @@
+Data Versioning - DVC Commands
+
+1. Create DVC folder
+2. Create FOLDER with artifacts
+3. Run > git init
+4. Run > dvc init
+5. dvc add $FOLDER .gitignore
+6. Verify files inside - cd .dvc/cache
+7. 
+
+
+pip install dvc_gdrive
+
+dvc remote add --default myremote gdrive://1tv-FsXKnjef6y7lfMKyGIMAdrR_ItusDAA
+dvc remote modify myremote gdrive_acknowledge_abuse true
+
+dvc push
+
