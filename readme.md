@@ -1,3 +1,12 @@
+# About
+Data Version Control (DVC) 
+Input Images versions for ML model training are being versioned
+
+Google Drive has been used as Backend to store the objects 
+
+High level commands:
+*Note: For your project/repo change the values corresponding to Git and GDrive* 
+```commandline
 Data Versioning - DVC Commands
 
 1. Create DVC folder
@@ -26,3 +35,7 @@ git commit -m"Adding initial DVC tracking files into GIT"
 git branch -M master
 git remote add origin git@github.com:say2imran/DVC-sample-images.git
 git push -u origin master
+
+```
+
+
